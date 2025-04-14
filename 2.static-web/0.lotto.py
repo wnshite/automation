@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 1
 lotto_url = 'https://dhlottery.co.kr/common.do?method=main' # 동행복권 사이트 메인페이지 가져오기
 
 res = requests.get(lotto_url)
